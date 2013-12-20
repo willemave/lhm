@@ -3,8 +3,5 @@ before_script:
   - "mysql -e 'create database lhm;'"
 rvm:
   - 2.0.0
-matrix:
-  allow_failures:
-    - rvm: 2.0.0
 gemfile:
   - ar-4.0_mysql2.gemfile
